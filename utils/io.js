@@ -1,6 +1,6 @@
 const chatController = require("../Controllers/chat.controller");
 const userController = require("../Controllers/user.controller");
-const roomController = requier("../Controllers/room.controller");
+const roomController = require("../Controllers/room.controller");
 
 module.exports = function (io) {
   // emit() : 말하는 함수
